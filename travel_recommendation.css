@@ -1,0 +1,232 @@
+
+*{
+    color: white;
+    margin: 0;
+    font-family: 'Robota', sans-serif;
+}
+body{
+    height: 100vh;
+    background: url(images/burj-khalifa-dubai-skyscraper-cityscape-skyline-modern-3200x2133-1144.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav ul, ul{
+    list-style-type: none;
+}
+nav ul:nth-child(1){
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+    cursor: pointer;
+}
+nav{
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , hsla(0, 0%, 54%, 0.6));
+}
+.nav-group{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    margin-left: 75.5px;
+    margin-right: 75.5px;
+}
+nav img{
+    width: 50px;
+    margin-left: 0;
+}
+nav li, h1{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+nav ul li a:hover{
+    color:hsla(201, 100%, 69%, 0.9)
+}
+
+nav ul:nth-child(2) li{
+    padding: 15px;
+}
+.search-section{
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+.search-section input, input::placeholder{
+    border-radius: 25px 0 0 25px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    height: 40px;
+    width: 250px;
+    color: hsl(201, 100%, 69%);
+    font-weight: bold;
+    text-indent: 20px;
+}
+.search-section input[type=text]:focus{
+    border: none;
+}
+.search-section input::placeholder{
+    padding-left: 10px;
+}
+.search-section i{
+    color: hsl(201, 100%, 69%);
+    font-size: 1.3rem;
+}
+.search-section div{
+    display: inline-block;
+}
+.search-section div:nth-child(2){
+    background-color: white;
+    width: 200px;
+    height: 42px;
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    border-radius: 0 25px 25px 0;
+}
+
+.search-section button{
+    border: none;
+    background-color: hsl(0, 0%, 100%);
+    color: hsla(201, 100%, 69%, 0.9);
+    border: 1px solid hsla(201, 100%, 69%, 0.9);
+    height: 70%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+.search-section button:hover{
+    background-color: hsla(201, 100%, 69%, 0.9);
+    color: white;
+    border: none;
+}
+.home-group{
+    background-image: linear-gradient(to right, hsla(201, 100%, 69%, 0.7), hsla(0, 0%, 100%, 0));
+    display: flex;
+    height: 100%;
+    margin: auto;
+}
+.side-bar{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-left: 75.5px;
+}
+.side-bar .line{
+    height: 200px;
+    width: 2px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 100%);
+}
+.side-bar ul{
+    height: 200px;
+    width: 50px;
+    margin-bottom: 70px;
+    text-align: center;
+    padding: 0;
+}
+.side-bar ul li{
+    margin-bottom: 20px;
+    display: block;
+    cursor: pointer;
+}
+.side-bar i{
+    color: white;
+    font-size: 25px;
+    transition: all 0.5s;
+}
+.side-bar i:hover{
+    color: hsla(0, 0%, 0%, 0.4);
+}
+
+.home-section{
+    width: 100%;
+    margin-right: 75.5px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home-contant{
+    width: 400px;
+}
+.home-section h1{
+    font-size: 3em;
+    margin-top: 150px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+.home-section p{
+    margin-top: 50px;
+}
+.home-section button{
+    margin-top: 40px;
+    width: 130px;
+    height: 35px;
+    border: 1px solid hsla(201, 100%, 69%, 0.9);
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: white;
+    color: hsla(201, 100%, 69%, 0.9);
+    cursor: pointer;
+    transition: backround-color 0.5s, color 0.5s;
+}
+.home-section button:hover{
+    background-color: hsla(201, 100%, 69%, 0.9);
+    color: hsla(0, 0%, 100%);
+}
+.search-display{
+    width: 35%;
+}
+.image-card{
+    width: 100%;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+.image-card:hover{
+    box-shadow: 1px 1px 5px black;
+}
+.location-img > img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.location-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.location-info > p:nth-child(1){
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: black;
+}
+.location-info > p:nth-child(2){
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: black;
+}
+.location-info > .vist-btn{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
