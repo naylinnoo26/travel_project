@@ -7,12 +7,12 @@
         "cities": [
           {
             "name": "Sydney, Australia",
-            "imageUrl": "images/aerial-photo-rio-de-janeiro-surrounded-by-sea-hills-sunlight-brazil.jpg",
+            "imageUrl": "https://img.freepik.com/premium-photo/north-sydney-perspectives_1048944-9621393.jpg?uid=R195390194&ga=GA1.1.2071614811.1744193799&semt=ais_hybrid&w=740",
             "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
           },
           {
             "name": "Melbourne, Australia",
-            "imageUrl": "images/beautiful-shot-city-buildings-blue-cloudy-sky.jpg",
+            "imageUrl": "https://img.freepik.com/free-photo/toronto-skyline-from-park_649448-3488.jpg?uid=R195390194&ga=GA1.1.2071614811.1744193799&semt=ais_hybrid&w=740",
             "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
           }
         ]
@@ -23,12 +23,12 @@
         "cities": [
           {
             "name": "Tokyo, Japan",
-            "imageUrl": "images/fuji-mountain-kawaguchiko-lake-morning-autumn-seasons-fuji-mountain-yamanachi-japan.jpg",
+            "imageUrl": "https://img.freepik.com/free-photo/cherry-blossoms-spring-chureito-pagoda-fuji-mountain-japan_335224-213.jpg?uid=R195390194&ga=GA1.1.2071614811.1744193799&semt=ais_hybrid&w=740",
             "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
           },
           {
             "name": "Kyoto, Japan",
-            "imageUrl": "images/aerial-view-tokyo-cityscape-with-fuji-mountain-japan.jpg",
+            "imageUrl": "https://img.freepik.com/free-photo/forest-with-japanese-structure_181624-26753.jpg?uid=R195390194&ga=GA1.1.2071614811.1744193799&semt=ais_hybrid&w=740",
             "description": "Known for its historic temples, gardens, and traditional tea houses."
           }
         ]
@@ -39,12 +39,12 @@
         "cities": [
           {
             "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "images/amazing-shot-rio-de-janeiro-s-beach-majestic-mountain.jpg",
+            "imageUrl": "https://img.freepik.com/free-photo/aerial-shot-lagoa-rio-de-janeiro-brazil_181624-30860.jpg?uid=R195390194&ga=GA1.1.2071614811.1744193799&semt=ais_hybrid&w=740",
             "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
           },
           {
             "name": "São Paulo, Brazil",
-            "imageUrl": "images/tropical-beach-with-thatched-hut-clear-blue-water-palm-trees.jpg",
+            "imageUrl": "https://img.freepik.com/premium-photo/high-angle-view-buildings-against-sky-sunset_1048944-20909694.jpg?uid=R195390194&ga=GA1.1.2071614811.1744193799&semt=ais_hybrid&w=740",
             "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
           }
         ]
@@ -54,13 +54,13 @@
       {
         "id": 1,
         "name": "Angkor Wat, Cambodia",
-        "imageUrl": "images/buddha-statue-wat-mahathat-temple-precinct-sukhothai-historical-park.jpg",
+        "imageUrl": "https://img.freepik.com/free-photo/angkor-wat-historic-temple-siem-reap-cambodia_181624-22195.jpg?uid=R195390194&ga=GA1.1.2071614811.1744193799&semt=ais_hybrid&w=740",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
         "id": 2,
         "name": "Taj Mahal, India",
-        "imageUrl": "images/sunset-reflection-ancient-mausoleum-marble-tomb-generated-by-ai.jpg",
+        "imageUrl": "https://img.freepik.com/premium-photo/panoramic-view-taj-mahal-sunset-with-reflection-agra-india_255553-1217.jpg?uid=R195390194&ga=GA1.1.2071614811.1744193799&semt=ais_hybrid&w=740",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }
     ],
@@ -68,13 +68,13 @@
       {
         "id": 1,
         "name": "Bora Bora, French Polynesia",
-        "imageUrl": "images/view-world-monument-celebrate-world-heritage-day.jpg",
+        "imageUrl": "https://img.freepik.com/free-photo/blue-villa-beautiful-sea-hotel_1203-5316.jpg?uid=R195390194&ga=GA1.1.2071614811.1744193799&semt=ais_hybrid&w=740",
         "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
       },
       {
         "id": 2,
         "name": "Copacabana Beach, Brazil",
-        "imageUrl": "images/landscape-tropical-vacation-palm-summer.jpg",
+        "imageUrl": "https://img.freepik.com/free-photo/mountain-botafogo-beach-rio-de-janeiro-brazil_181624-32586.jpg?uid=R195390194&ga=GA1.1.2071614811.1744193799&semt=ais_hybrid&w=740",
         "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
       }
     ]
