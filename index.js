@@ -1,7 +1,6 @@
 
-let searchBtn = document.getElementById('search-btn');
-let clearBtn = document.getElementById('clear-btn');
-
+const searchBtn = document.getElementById('search-btn');
+console.log(searchBtn);
 
 searchBtn.addEventListener('click', () => {
     const userSearch = document.getElementById("userSearch").value.toLowerCase();
@@ -68,7 +67,6 @@ searchBtn.addEventListener('click', () => {
             console.error("There was a problem with the fetch operation:", error);
         })
 })
-
 
 /* 
 

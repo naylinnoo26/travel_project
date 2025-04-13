@@ -196,7 +196,7 @@ nav ul:nth-child(2) li{
     width: 10px;
 }
 ::-webkit-scrollbar-track{
-    background-color: hsla(0, 0%, 100%, 0.1);
+    background-color: hsla(0, 0%, 100%, 0);
 }
 .image-card{
     width: 50%;
